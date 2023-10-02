@@ -4,6 +4,12 @@
   margin: 1rem 1%;
 }
 
+.secondLevelTitle {
+  font-size: 3rem;
+  line-height: 3.1rem;
+  margin: 1rem 1%;
+}
+
 .plainText {
   font-size: 1.5rem;
   line-height: 1.8rem;
@@ -12,7 +18,7 @@
 
 .placeHolderBox {
   background: #5f35f7;
-  height: 40rem;
-  width: 40%;
-  margin: 4rem;
+  width: 56rem;
+  height: 65rem; /**/
+  margin: 3rem 0rem;
 }
