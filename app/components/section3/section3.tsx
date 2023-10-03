@@ -18,7 +18,7 @@ export default function Section3() {
         {/* {isDesktopOrLaptop && <DesktopFlex />} */}
         {/* display for mobile devices*/}
         {/* {!isDesktopOrLaptop && <MobileFlex />} */}
-        <DesktopFlex />
+        <MobileFlex />
         <div className={styles.whiteLine}></div>
       </section>
     </div>

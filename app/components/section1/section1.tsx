@@ -11,9 +11,9 @@ export default function Section1() {
         <p className="title-1">sit amet lacus</p>
       </div>
       <div className="flex-container justify-between">
-        <div className={`placeholder-box ${styles.flexItem} ${styles.left}`}>
-          &nbsp;
-        </div>
+        <div
+          className={`placeholder-box ${styles.flexItem} ${styles.left}`}
+        ></div>
         <div className={`placeholder-box ${styles.flexItem} ${styles.right}`}>
           &nbsp;
         </div>

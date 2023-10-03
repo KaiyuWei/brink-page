@@ -10,7 +10,6 @@ import Section4 from "./components/section4/section4";
  * @todo remove the media query!
  * @returns
  */
-
 export default function Home() {
   const isDesktopOrLaptop = useMediaQuery({
     query: "(min-width: 1224px)",
