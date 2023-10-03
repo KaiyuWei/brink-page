@@ -11,7 +11,7 @@
 .flexVertical {
   display: flex;
   flex-direction: column;
-  /* flex: 1; */
+  flex: 0 1 auto;
 }
 
 /* the flex boxes on two sides */
@@ -21,7 +21,6 @@
   max-width: 35rem;
   min-width: 25rem;
   margin: 1rem 1.5rem;
-  flex: 0 1 auto;
 }
 
 /* the flex box in the middle */
