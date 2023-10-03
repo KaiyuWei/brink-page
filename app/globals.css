@@ -82,3 +82,9 @@ body {
 .placeholder-box {
   background: #5f35f7;
 }
+
+/* override carousel properties */
+.carousel .slide img {
+  max-height: 60rem; /* change this to whatever you want */
+  width: auto;
+}

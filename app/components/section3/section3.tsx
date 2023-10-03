@@ -15,10 +15,9 @@ export default function Section3() {
       <section className="dark-section">
         <div style={{ width: "100%", height: "8rem" }}>&nbsp;</div>
         {/* desplay for desktops*/}
-        {/* {isDesktopOrLaptop && <DesktopFlex />} */}
+        {isDesktopOrLaptop && <DesktopFlex />}
         {/* display for mobile devices*/}
-        {/* {!isDesktopOrLaptop && <MobileFlex />} */}
-        <MobileFlex />
+        {!isDesktopOrLaptop && <MobileFlex />}
         <div className={styles.whiteLine}></div>
       </section>
     </div>

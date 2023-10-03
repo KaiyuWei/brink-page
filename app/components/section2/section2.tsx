@@ -1,8 +1,7 @@
 import styles from "./section2.module.css";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
 import { useMediaQuery } from "react-responsive";
 import DesktopFlex from "./flexes/DesktopFlex";
+import MobileFlex from "./flexes/MobileFlex";
 
 export default function Section2() {
   // the view is for desktop of mobile devices
@@ -40,7 +39,8 @@ export default function Section2() {
           </div>
         </div>
         <div style={{ width: "100%", height: "8em" }}></div>
-        <DesktopFlex />
+        {isDesktopOrLaptop && <DesktopFlex />}
+        {!isDesktopOrLaptop && <MobileFlex />}
         <div style={{ width: "100%", height: "11em" }}></div>
       </section>
     </div>
