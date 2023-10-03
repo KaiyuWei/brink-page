@@ -18,14 +18,18 @@
 .sideFlexItem {
   width: 35rem;
   height: 23rem;
-  margin: 3rem 3rem;
-  flex: 1 1 auto;
+  max-width: 35rem;
+  min-width: 25rem;
+  margin: 1rem 1.5rem;
+  flex: 0 1 auto;
 }
 
 /* the flex box in the middle */
 .middleFlexItem {
   width: 35rem;
-  height: 49rem;
-  margin: 3rem 1rem;
-  flex-shrink: 1;
+  height: 48rem;
+  max-width: 35rem;
+  min-width: 25rem;
+  margin: 1rem 1.5rem;
+  flex: 0 1 auto;
 }

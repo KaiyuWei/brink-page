@@ -36,10 +36,9 @@ export default function Section1() {
             <div className={`${styles.sideFlexItem} placeholder-box`}></div>
             <div className={`${styles.sideFlexItem} placeholder-box`}></div>
           </div>
-          <div
-            className="placeholder-box flex"
-            style={{ width: "35rem", height: "49rem", margin: "3rem 0rem" }}
-          ></div>
+          <div>
+            <div className={`${styles.middleFlexItem} placeholder-box`}></div>
+          </div>
           <div className={styles.flexVertical}>
             <div className={`${styles.sideFlexItem} placeholder-box`}></div>
             <div className={`${styles.sideFlexItem} placeholder-box`}></div>
