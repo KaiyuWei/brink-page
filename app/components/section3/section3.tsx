@@ -34,6 +34,7 @@ export default function Section1() {
             className={`placeholder-box ${styles.flexItem} ${styles.darker}`}
           ></div>
         </div>
+        <div className={styles.whiteLine}></div>
       </section>
     </div>
   );
