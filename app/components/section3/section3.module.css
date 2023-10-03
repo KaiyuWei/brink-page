@@ -1,0 +1,42 @@
+.flexItem {
+  width: 57rem;
+  height: 30rem;
+  margin: 3rem 3rem;
+}
+
+.flexItem.darker {
+  background: #4425b2;
+}
+
+/* text boxes in section 3 */
+.flexTextTitle {
+  width: 38rem;
+  height: 30rem;
+  margin: 1rem 1rem;
+  flex-grow: 1;
+}
+
+.flexText {
+  width: 38rem;
+  height: 15rem;
+  margin: 1rem 1rem;
+  flex-grow: 1;
+}
+
+.lowerText {
+  width: 38rem;
+  height: 15rem;
+  margin: 1rem 1rem;
+  flex-grow: 1;
+}
+
+/* the overlap effect */
+@media (min-width: 1500px) {
+  .lowerText {
+    transform: translate(-4rem, -21rem);
+  }
+
+  .flexItem.darker {
+    transform: translate(50rem, -15rem);
+  }
+}

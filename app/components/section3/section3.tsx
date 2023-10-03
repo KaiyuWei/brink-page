@@ -1,24 +1,28 @@
-import "./section3.css";
+import styles from "./section3.module.css";
 
 export default function Section1() {
   return (
     <div>
       <section className="dark-section">
         <div style={{ width: "100%", height: "8rem" }}>&nbsp;</div>
-        <div className="flex flex-wrap flex-row justify-between">
-          <div className="basis-5/12">
-            <h6 className="title-2">
+        <div className="px-14 flex-container flex-row content-between">
+          <div className={`${styles.flexTextTitle}`}>
+            <p className="title-2">
               Proin enim enim, tincidunt consequat sollicitudin.
-            </h6>
+            </p>
           </div>
-          <div className="basis-5/12">
+          <div className={`${styles.flexText}`}>
             <p className="plain-text">
               Aliquam vel orci pulvinar, porta velit in, volutpat neque. Nam vel
               leo nec nibh tempus congue. Morbi rhoncus bibendum enim sit amet
               pulvinar. Quisque lobortis commodo nunc, a rhoncus diam aliquam
               ac. Pellentesque non augue ullamcorper arcu facilisis bibendum.
               Nulla quis tincidunt turpis. Sed quis erat arcu.
-              <br />
+            </p>
+          </div>
+          <div className={`placeholder-box ${styles.flexItem}`}></div>
+          <div className={`${styles.flexText} ${styles.lowerText}`}>
+            <p className="plain-text">
               Phasellus gravida felis quis ex mattis, sed suscipit tellus
               tincidunt. In imperdiet dapibus vehicula. In auctor nec nibh
               vestibulum ornare. Morbi porta, enim hendrerit consectetur
@@ -26,6 +30,9 @@ export default function Section1() {
               augue. Nulla quis magna at lorem sodales gravida.
             </p>
           </div>
+          <div
+            className={`placeholder-box ${styles.flexItem} ${styles.darker}`}
+          ></div>
         </div>
       </section>
     </div>
