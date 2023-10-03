@@ -1,6 +1,6 @@
 import styles from "./section2.module.css";
 
-export default function Section1() {
+export default function Section2() {
   return (
     <div>
       <section className="my-2">

@@ -1,6 +1,14 @@
+import React from "react";
 import styles from "./section3.module.css";
+import { useMediaQuery } from "react-responsive";
 
-export default function Section1() {
+export default function Section3() {
+  // media query to determine the rendering result
+  const isDesktopOrLaptop = useMediaQuery({
+    query: "(min-width: 1224px)",
+  });
+  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
+
   return (
     <div>
       <section className="dark-section">

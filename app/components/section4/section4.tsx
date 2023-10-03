@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./section4.module.css";
 
-export default function Section1() {
+export default function Section4() {
   return (
     <div>
       <section className="dark-section">
