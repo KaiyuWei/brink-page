@@ -53,3 +53,25 @@ body {
   background-color: black;
   color: white;
 }
+
+.firstLevelTitle {
+  font-size: 6rem;
+  line-height: 6.1rem;
+  margin: 1rem 1%;
+}
+
+.secondLevelTitle {
+  font-size: 3rem;
+  line-height: 3.1rem;
+  margin: 1rem 1%;
+}
+
+.plainText {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  margin: 0.3rem 1%;
+}
+
+.placeHolderBox {
+  background: #5f35f7;
+}
