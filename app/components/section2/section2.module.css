@@ -7,11 +7,19 @@
   padding-right: 1rem;
 }
 
+/* the flex container holding flex boxes in a column */
+.flexVertical {
+  display: flex;
+  flex-direction: column;
+  /* flex: 1; */
+}
+
 /* the flex boxes on two sides */
 .sideFlexItem {
   width: 35rem;
   height: 23rem;
   margin: 3rem 3rem;
+  flex: 1 1 auto;
 }
 
 /* the flex box in the middle */

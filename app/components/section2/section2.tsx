@@ -32,7 +32,7 @@ export default function Section1() {
         </div>
         <div style={{ width: "100%", height: "8em" }}></div>
         <div className="flex-container flex-row justify-center">
-          <div className="grid-container">
+          <div className={styles.flexVertical}>
             <div className={`${styles.sideFlexItem} placeholder-box`}></div>
             <div className={`${styles.sideFlexItem} placeholder-box`}></div>
           </div>
@@ -40,7 +40,7 @@ export default function Section1() {
             className="placeholder-box flex"
             style={{ width: "35rem", height: "49rem", margin: "3rem 0rem" }}
           ></div>
-          <div className="grid-container">
+          <div className={styles.flexVertical}>
             <div className={`${styles.sideFlexItem} placeholder-box`}></div>
             <div className={`${styles.sideFlexItem} placeholder-box`}></div>
           </div>
