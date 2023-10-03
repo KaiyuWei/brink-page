@@ -2,6 +2,7 @@
   width: 57rem;
   height: 30rem;
   margin: 3rem 3rem;
+  flex: 0 1 auto;
 }
 
 .flexItem.darker {
@@ -32,13 +33,9 @@
 }
 
 /* the overlap effect */
-@media (min-width: 1500px) {
-  .lowerText {
-    transform: translate(-4rem, -21rem);
-  }
-
+@media (min-width: 1224px) {
   .flexItem.darker {
-    transform: translate(50rem, -15rem);
+    transform: translate(45rem, -15rem);
   }
 }
 
