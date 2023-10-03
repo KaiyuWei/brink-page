@@ -7,12 +7,12 @@ export default function Section1() {
         <div style={{ width: "100%", height: "8rem" }}>&nbsp;</div>
         <div className="flex flex-wrap flex-row justify-between">
           <div className="basis-5/12">
-            <h6 className="secondLevelTitle">
+            <h6 className="title-2">
               Proin enim enim, tincidunt consequat sollicitudin.
             </h6>
           </div>
           <div className="basis-5/12">
-            <p className="plainText">
+            <p className="plain-text">
               Aliquam vel orci pulvinar, porta velit in, volutpat neque. Nam vel
               leo nec nibh tempus congue. Morbi rhoncus bibendum enim sit amet
               pulvinar. Quisque lobortis commodo nunc, a rhoncus diam aliquam

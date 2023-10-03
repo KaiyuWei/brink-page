@@ -12,6 +12,17 @@
   }
 }
 
+body {
+  color: rgb(var(--foreground-rgb));
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: black;
+  }
+}
+
+/* overwrite the tailwind styles */
 @layer base {
   h1 {
     @apply text-4xl;
@@ -32,20 +43,36 @@
     @apply text-sm;
   }
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
+/* fonts */
+.title-1 {
+  font-size: 6rem;
+  line-height: 6.1rem;
+  margin: 1rem 1%;
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    color: black;
-  }
+.title-2 {
+  font-size: 3rem;
+  line-height: 3.1rem;
+  margin: 1rem 1%;
 }
 
+.plain-text {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  margin: 0.3rem 1%;
+}
+
+/* flex box relevant*/
 .flex-container {
   display: flex;
   flex-wrap: wrap;
+}
+
+.flex-container.flex-col {
+  flex-direction: column;
+}
+
+.flex-container.justify-between {
   justify-content: space-between;
 }
 
@@ -54,24 +81,7 @@ body {
   color: white;
 }
 
-.firstLevelTitle {
-  font-size: 6rem;
-  line-height: 6.1rem;
-  margin: 1rem 1%;
-}
-
-.secondLevelTitle {
-  font-size: 3rem;
-  line-height: 3.1rem;
-  margin: 1rem 1%;
-}
-
-.plainText {
-  font-size: 1.5rem;
-  line-height: 1.8rem;
-  margin: 0.3rem 1%;
-}
-
-.placeHolderBox {
+/* place holder boxes*/
+.placeholder-box {
   background: #5f35f7;
 }

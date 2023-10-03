@@ -6,11 +6,11 @@ export default function Section1() {
       <section className="my-2">
         <div style={{ width: "100%", height: "8em" }}></div>
         <div className="flex-col justify-center">
-          <h6 className="secondLevelTitle text-center">
+          <h6 className="title-2 text-center">
             Suspendisse tincidunt vulputate ex, a laoreet neque luctus vitae.
           </h6>
           <div className="my-2 py-2">
-            <p className="plainText text-center">
+            <p className="plain-text text-center">
               Suspendisse tincidunt vulputate ex, a laoreet neque luctus vitae.
               Quisque maximus ante sapien, at pharetra sem sagittis eu. Maecenas
               nibh leo, interdum ac malesuada quis, tempus vel lacus.
@@ -29,21 +29,21 @@ export default function Section1() {
               style={{ width: "35rem", height: "23rem", margin: "3rem 0rem" }}
             ></div>
             <div
-              className="placeHolderBox"
+              className="placeholder-box"
               style={{ width: "35rem", height: "23rem", margin: "3rem 0rem" }}
             ></div>
           </div>
           <div
-            className="placeHolderBox flex"
+            className="placeholder-box flex"
             style={{ width: "35rem", height: "49rem", margin: "3rem 0rem" }}
           ></div>
           <div className="flex">
             <div
-              className="placeHolderBox"
+              className="placeholder-box"
               style={{ width: "35rem", height: "23rem", margin: "3rem 0rem" }}
             ></div>
             <div
-              className="placeHolderBox"
+              className="placeholder-box"
               style={{ width: "35rem", height: "23rem", margin: "3rem 0rem" }}
             ></div>
           </div>
