@@ -25,17 +25,14 @@
   flex-grow: 1;
 }
 
-.lowerText {
-  width: 38rem;
-  height: 15rem;
-  margin: 1rem 1rem;
-  flex-grow: 1;
+.moveUpContainer {
+  justify-content: end;
 }
 
 /* the overlap effect */
-@media (min-width: 1224px) {
-  .flexItem.darker {
-    transform: translate(45rem, -15rem);
+@media (min-width: 1300px) {
+  .moveUpContainer {
+    transform: translate(-5rem, -13rem);
   }
 }
 
