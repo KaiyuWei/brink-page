@@ -68,14 +68,6 @@ body {
   flex-wrap: wrap;
 }
 
-.flex-container.flex-col {
-  flex-direction: column;
-}
-
-.flex-container.justify-between {
-  justify-content: space-between;
-}
-
 .dark-section {
   background-color: black;
   color: white;
