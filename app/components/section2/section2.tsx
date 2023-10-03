@@ -44,6 +44,7 @@ export default function Section1() {
             <div className={`${styles.sideFlexItem} placeholder-box`}></div>
           </div>
         </div>
+        <div style={{ width: "100%", height: "11em" }}></div>
       </section>
     </div>
   );
