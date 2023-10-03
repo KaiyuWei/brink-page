@@ -35,13 +35,6 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 }
 
 @media (prefers-color-scheme: dark) {
@@ -54,4 +47,9 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.dark-section {
+  background-color: black;
+  color: white;
 }
