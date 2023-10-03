@@ -1,0 +1,22 @@
+#sectionTwoTextBox {
+  width: 60%;
+}
+
+#sectionTwoTextBox .title {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* the flex boxes on two sides */
+.sideFlexItem {
+  width: 35rem;
+  height: 23rem;
+  margin: 3rem 3rem;
+}
+
+/* the flex box in the middle */
+.middleFlexItem {
+  width: 35rem;
+  height: 49rem;
+  margin: 3rem 1rem;
+}
