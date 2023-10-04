@@ -39,8 +39,9 @@ export default function Section2() {
           </div>
         </div>
         <div style={{ width: "100%", height: "8em" }}></div>
-        {isDesktopOrLaptop && <DesktopFlex />}
-        {!isDesktopOrLaptop && <MobileFlex />}
+        {/* {isDesktopOrLaptop && <DesktopFlex />}
+        {!isDesktopOrLaptop && <MobileFlex />} */}
+        <DesktopFlex />
         <div style={{ width: "100%", height: "11em" }}></div>
       </section>
     </div>

@@ -2,7 +2,7 @@
   width: 49%;
   min-width: 43rem;
   height: 30rem;
-  margin: 3rem 3rem;
+  margin: 1rem 1rem;
   flex: 0 1 auto;
 }
 
@@ -24,7 +24,7 @@
 /* text boxes in section 3 */
 .flexTextTitle {
   width: 38rem;
-  height: 10rem;
+  height: auto;
   margin: 1rem 1rem;
   align-self: stretch;
   flex: 1 1 auto;

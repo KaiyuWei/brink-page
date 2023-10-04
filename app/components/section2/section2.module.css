@@ -12,21 +12,35 @@
   display: flex;
   flex-direction: column;
   flex: 0 1 auto;
+  width: 30%;
+}
+
+.flexRow {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex: 0 1 auto;
 }
 
 /* the flex boxes on two sides */
 .sideFlexItem {
-  width: 28%rem;
-  height: 23rem;
+  width: auto;
+  height: auto;
   max-width: 35rem;
-  min-width: 25rem;
+  min-width: 40%;
   margin: 1rem 1.5rem;
+}
+
+/* the flex container that wraps the middle item */
+.middleWrap {
+  display: flex;
+  width: auto;
 }
 
 /* the flex box in the middle */
 .middleFlexItem {
-  width: 28%rem;
-  height: 48rem;
+  width: auto;
+  height: auto;
   max-width: 35rem;
   min-width: 25rem;
   margin: 1rem 1.5rem;

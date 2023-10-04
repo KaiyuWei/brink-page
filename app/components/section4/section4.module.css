@@ -5,6 +5,13 @@
   margin: 2rem;
 }
 
+.flexText {
+  width: 30rem;
+  height: auto;
+  padding: 2rem;
+  margin: 2rem;
+}
+
 .reverseFlex {
   flex-wrap: wrap-reverse;
 }
