@@ -2,12 +2,16 @@ import styles from "./section2.module.css";
 import { useMediaQuery } from "react-responsive";
 import DesktopFlex from "./flexes/DesktopFlex";
 import MobileFlex from "./flexes/MobileFlex";
-import DesktopSmallFlex from "./flexes/DesktopSmallFlex";
+import TabletFlex from "./flexes/TabletFlex";
+import AppSettings from "@/app/appSettings";
 
 export default function Section2() {
-  // the view is for desktop of mobile devices
-  const isDesktopOrLaptop = useMediaQuery({
-    query: "(min-width: 1224px)",
+  // the view is for desktop, tablet, or mobilephone devices
+  const isDesktop = useMediaQuery({
+    query: `(min-width: ${AppSettings.MIN_DESKTOP_WIDTH})`,
+  });
+  const isMobile = useMediaQuery({
+    query: `(max-width: ${AppSettings.MAX_MOBILE_WIDTH})`,
   });
 
   return (
@@ -40,9 +44,9 @@ export default function Section2() {
           </div>
         </div>
         <div style={{ width: "100%", height: "8em" }}></div>
-        {/* {isDesktopOrLaptop && <DesktopFlex />}
-        {!isDesktopOrLaptop && <MobileFlex />} */}
-        <DesktopSmallFlex />
+        {/* {isDesktop && <DesktopFlex />}
+        {isMobile && <MobileFlex />} */}
+        <DesktopFlex />
         <div style={{ width: "100%", height: "11em" }}></div>
       </section>
     </div>

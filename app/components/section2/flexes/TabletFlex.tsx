@@ -1,9 +1,9 @@
-/** this is the flex box layout when the window shrinks to a smaller size in desktop devices */
+/** this is the flex box layout for tablet devices */
 
 import styles from "../section2.module.css";
 import React from "react";
 
-export default function DesktopSmallFlex() {
+export default function TabletFlex() {
   return (
     <div className={`${styles.flexVertical}`}>
       <div className={`${styles.flexRow} ${styles.flexItem}`}>

@@ -4,9 +4,6 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --desktop-window: "1024px"; /* the minimum window size of desktop devices*/
-  --tablet-window: "700px"; /* the minimum window size of tablet devices*/
-  --mobilephone-window: "480px"; /* the maximum window size of tablet devices*/
 }
 
 @media (prefers-color-scheme: dark) {
