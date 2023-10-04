@@ -37,8 +37,6 @@
   height: auto;
   max-width: 32rem;
   margin: 0.2rem;
-  flex-shrink: 1;
-  flex-basis: 20rem;
 }
 
 /* boxes on the two sides */
