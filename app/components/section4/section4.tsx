@@ -5,7 +5,7 @@ export default function Section4() {
   return (
     <div>
       <section className="dark-section">
-        <div style={{ width: "100%", height: "9rem" }}>&nbsp;</div>
+        <div id={styles.sectionFourHeader}>&nbsp;</div>
         <div
           className={`${styles.reverseFlex} flex-container justify-evenly px-6`}
         >
@@ -17,7 +17,7 @@ export default function Section4() {
             </p>
           </div>
         </div>
-        <div style={{ width: "100%", height: "9rem" }}>&nbsp;</div>
+        <div id={styles.sectionFourFooter}>&nbsp;</div>
       </section>
     </div>
   );

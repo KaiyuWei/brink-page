@@ -1,18 +1,51 @@
+#sectionFourHeader {
+  width: 100%;
+  height: 9rem;
+}
+
+#sectionFourFooter {
+  width: 100%;
+  height: 9rem;
+}
+
 .flexItem {
   width: 30rem;
   min-width: 30rem;
   height: 30rem;
-  padding: 2rem;
   margin: 2rem;
 }
 
 .flexText {
   width: 30rem;
-  height: auto;
-  padding: 2rem;
   margin: 2rem;
 }
 
 .reverseFlex {
   flex-wrap: wrap-reverse;
+}
+
+/* for tablet window */
+@media (min-width: 600px) and (max-width: 1199px) {
+  #sectionFourHeader {
+    width: 100%;
+    height: 4rem;
+  }
+
+  #sectionFourFooter {
+    width: 100%;
+    height: 4rem;
+  }
+}
+
+/* for modilephone */
+@media (max-width: 599px) {
+  #sectionFourHeader {
+    width: 100%;
+    height: 2rem;
+  }
+
+  #sectionFourFooter {
+    width: 100%;
+    height: 4rem;
+  }
 }
