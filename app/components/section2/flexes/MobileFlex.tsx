@@ -6,7 +6,7 @@ import { Carousel } from "react-responsive-carousel";
 export default function MobileFlex() {
   return (
     <div>
-      <Carousel>
+      <Carousel showThumbs={false} dynamicHeight={true}>
         <div>
           <img src="https://picsum.photos/id/35/5000/3333" />
         </div>
