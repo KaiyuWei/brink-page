@@ -31,6 +31,11 @@
 
 /* for mobilephones */
 @media (max-width: 599px) {
+  #sectionOneHeader {
+    width: 100%;
+    height: 10rem;
+  }
+
   .topTitle {
     max-width: 100%;
   }
