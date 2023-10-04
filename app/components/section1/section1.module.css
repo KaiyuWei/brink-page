@@ -11,9 +11,15 @@
   margin: 1rem;
 }
 
+/* the flex container and its items */
+.twoBoxContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
 .flexItem {
   max-width: 57rem;
-  min-width: 37rem;
+  min-width: 31rem;
   height: 65rem;
   padding: 10rem 3rem;
   flex: 1 1 auto;
@@ -21,12 +27,25 @@
 
 /* The place holder in the left */
 .flexItem.left {
-  margin: 5rem 3rem 5rem 0rem;
+  margin: 2rem 3rem 2rem 0rem;
 }
 
 /* The place holder in the left */
 .flexItem.right {
-  margin: 5rem 0rem 5rem 3rem;
+  margin: 2rem 0rem 2rem 3rem;
+}
+
+/* for tablets */
+@media (min-width: 600px) and (max-width: 1199px) {
+  .twoBoxContainer {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .flexItem.left,
+  .flexItem.right {
+    margin: 2rem;
+  }
 }
 
 /* for mobilephones */

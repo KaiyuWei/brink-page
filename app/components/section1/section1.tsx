@@ -13,7 +13,7 @@ export default function Section1() {
           Utrum ut placerat nec, varius sit amet lacus
         </p>
       </div>
-      <div className="flex-container justify-between">
+      <div className={`${styles.twoBoxContainer}`}>
         <div
           className={`placeholder-box ${styles.flexItem} ${styles.left}`}
         ></div>
