@@ -32,7 +32,7 @@
 
 .flexText {
   width: 25rem;
-  height: 15rem;
+  height: auto;
   margin: 1rem 1rem;
   flex: 1 1 auto;
 }
