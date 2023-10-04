@@ -20,7 +20,7 @@ export default function Section2() {
   return (
     <div>
       <section className="my-2">
-        <div style={{ width: "100%", height: "8em" }}></div>
+        <div id={`${styles.sectionTwoHeader}`}></div>
         <div className="flex-container justify-center">
           <div
             className="flex-col items-center flex-container"
@@ -46,11 +46,11 @@ export default function Section2() {
             </div>
           </div>
         </div>
-        <div style={{ width: "100%", height: "8em" }}></div>
+        <div id={`${styles.sectionTwoWaist}`}></div>
         {isDesktop && <DesktopFlex />}
         {isTablet && <TabletFlex />}
         {isMobile && <MobileFlex />}
-        <div style={{ width: "100%", height: "11em" }}></div>
+        <div id={`${styles.sectionTwoFooter}`}></div>
       </section>
     </div>
   );

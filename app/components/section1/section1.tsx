@@ -8,7 +8,7 @@ export default function Section1() {
       <div>
         <p className={`plainText ${styles.topText}`}>Luctus vitae.</p>
       </div>
-      <div className={`m-0 p-0 ${styles.topTitle}`}>
+      <div className={styles.topTitle}>
         <p className={`titleOne ${styles.titleOne}`}>
           Utrum ut placerat nec, varius sit amet lacus
         </p>
