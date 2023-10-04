@@ -58,4 +58,14 @@
   .topTitle {
     max-width: 100%;
   }
+
+  .twoBoxContainer {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .flexItem.left,
+  .flexItem.right {
+    margin: 2rem;
+  }
 }
