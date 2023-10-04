@@ -4,7 +4,7 @@ import styles from "../section3.module.css";
 export default function MobileFlex() {
   return (
     <div>
-      <div className=" flex-container flex-row content-between">
+      <div className={styles.textContainer}>
         <div className={`${styles.flexTextTitle}`}>
           <p className="titleTwo">
             Proin enim enim, tincidunt consequat sollicitudin.

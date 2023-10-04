@@ -4,7 +4,7 @@ import styles from "../section3.module.css";
 export default function DesktopFlex() {
   return (
     <div>
-      <div className="px-14 my-8 flex-container flex-row content-between">
+      <div className={styles.textContainer}>
         <div className={`${styles.flexTextTitle}`}>
           <p className="titleTwo">
             Proin enim enim, tincidunt consequat sollicitudin.

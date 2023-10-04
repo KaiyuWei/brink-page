@@ -10,20 +10,23 @@
   background: #4425b2;
 }
 
+/* flex containers */
+.textContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0rem 3.5rem 0rem 3.5rem;
+}
+
 .moveLeftContainer {
   display: flex;
   justify-content: end;
+  margin-right: 2.5rem;
 }
 
 .moveRightContainer {
   display: flex;
-  padding-left: 3.5rem;
-}
-/* the flex container holding flex boxes in a column */
-.flexVertical {
-  display: flex;
-  flex-direction: column;
-  flex: 0 1 auto;
+  margin-left: 2.5rem;
 }
 
 /* text boxes in section 3 */
@@ -53,10 +56,10 @@
 /* the overlap effect for desktop and tablet devices */
 @media (min-width: 1200px) {
   .moveLeftContainer {
-    transform: translate(-8rem, -10rem);
+    transform: translate(-3rem, -3rem);
   }
 
   .moveRightContainer {
-    transform: translate(2px 2px);
+    transform: translate(3rem, 3rem);
   }
 }
