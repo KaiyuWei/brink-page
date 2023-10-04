@@ -16,7 +16,7 @@
 
 /* the flex boxes on two sides */
 .sideFlexItem {
-  width: 35rem;
+  width: 28%rem;
   height: 23rem;
   max-width: 35rem;
   min-width: 25rem;
@@ -25,7 +25,7 @@
 
 /* the flex box in the middle */
 .middleFlexItem {
-  width: 35rem;
+  width: 28%rem;
   height: 48rem;
   max-width: 35rem;
   min-width: 25rem;

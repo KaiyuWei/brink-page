@@ -1,5 +1,6 @@
 .flexItem {
-  width: 57rem;
+  width: 49%;
+  min-width: 43rem;
   height: 30rem;
   margin: 3rem 3rem;
   flex: 0 1 auto;
