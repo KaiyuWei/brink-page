@@ -6,9 +6,12 @@ export default function Section1() {
     <div>
       <div id={styles.sectionOneHeader}>&nbsp;</div>
       <div>
-        <p className="plain-text">Luctus vitae.</p>
-        <h1 className="title-1">Utrum ut placerat nec, varius</h1>
-        <p className="title-1">sit amet lacus</p>
+        <p className={`plainText ${styles.topText}`}>Luctus vitae.</p>
+      </div>
+      <div className={`m-0 p-0 ${styles.topTitle}`}>
+        <p className={`titleOne ${styles.titleOne}`}>
+          Utrum ut placerat nec, varius sit amet lacus
+        </p>
       </div>
       <div className="flex-container justify-between">
         <div

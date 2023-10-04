@@ -12,7 +12,7 @@ export default function Section4() {
           <div className={`${styles.flexItem} placeholder-box`}>&nbsp;</div>
           <div className={`${styles.flexItem} placeholder-box`}>&nbsp;</div>
           <div className={`${styles.flexText}`}>
-            <p className="title-2">
+            <p className="titleTwo">
               Proin enim enim, tincidunt consequat sollicitudin.
             </p>
           </div>

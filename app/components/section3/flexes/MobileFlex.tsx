@@ -6,12 +6,12 @@ export default function MobileFlex() {
     <div>
       <div className="px-14 my-8 flex-container flex-row content-between">
         <div className={`${styles.flexTextTitle}`}>
-          <p className="title-2">
+          <p className="titleTwo">
             Proin enim enim, tincidunt consequat sollicitudin.
           </p>
         </div>
         <div className={`${styles.flexText}`}>
-          <p className="my-20 plain-text">
+          <p className="my-20 plainText">
             Aliquam vel orci pulvinar, porta velit in, volutpat neque. Nam vel
             leo nec nibh tempus congue. Morbi rhoncus bibendum enim sit amet
             pulvinar. Quisque lobortis commodo nunc, a rhoncus diam aliquam ac.
@@ -28,7 +28,7 @@ export default function MobileFlex() {
       <div className="px-14 my-8 flex-container flex-row content-between">
         <div className={`placeholder-box ${styles.flexItem}`}></div>
         <div className={`${styles.flexText}`}>
-          <p className="my-20 plain-text">
+          <p className="my-20 plainText">
             Phasellus gravida felis quis ex mattis, sed suscipit tellus
             tincidunt. In imperdiet dapibus vehicula. In auctor nec nibh
             vestibulum ornare. Morbi porta, enim hendrerit consectetur ultrices,

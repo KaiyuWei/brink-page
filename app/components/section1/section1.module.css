@@ -3,6 +3,14 @@
   height: 20rem;
 }
 
+/* the text area on the top of this section */
+.topTitle {
+  max-width: 70%;
+}
+.topText {
+  margin: 1rem;
+}
+
 .flexItem {
   max-width: 57rem;
   min-width: 37rem;
@@ -19,4 +27,11 @@
 /* The place holder in the left */
 .flexItem.right {
   margin: 5rem 0rem 5rem 3rem;
+}
+
+/* for mobilephones */
+@media (max-width: 599px) {
+  .topTitle {
+    max-width: 100%;
+  }
 }

@@ -27,13 +27,13 @@ export default function Section2() {
             id={`${styles.sectionTwoTextBox}`}
           >
             <div className={styles.title}>
-              <p className="title-2 text-center">
+              <p className="titleTwo text-center">
                 Suspendisse tincidunt vulputate ex, a laoreet neque luctus
                 vitae.
               </p>
             </div>
             <div className="my-2 py-2">
-              <p className="plain-text text-center">
+              <p className="plainText text-center">
                 Suspendisse tincidunt vulputate ex, a laoreet neque luctus
                 vitae. Quisque maximus ante sapien, at pharetra sem sagittis eu.
                 Maecenas nibh leo, interdum ac malesuada quis, tempus vel lacus.

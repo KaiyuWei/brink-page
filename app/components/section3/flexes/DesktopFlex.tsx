@@ -6,12 +6,12 @@ export default function DesktopFlex() {
     <div>
       <div className="px-14 my-8 flex-container flex-row content-between">
         <div className={`${styles.flexTextTitle}`}>
-          <p className="title-2">
+          <p className="titleTwo">
             Proin enim enim, tincidunt consequat sollicitudin.
           </p>
         </div>
         <div className={`${styles.flexText}`}>
-          <p className="plain-text">
+          <p className="plainText">
             Aliquam vel orci pulvinar, porta velit in, volutpat neque. Nam vel
             leo nec nibh tempus congue. Morbi rhoncus bibendum enim sit amet
             pulvinar. Quisque lobortis commodo nunc, a rhoncus diam aliquam ac.

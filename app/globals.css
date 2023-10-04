@@ -23,24 +23,24 @@ body {
 }
 
 /* fonts */
-.title-1,
-.title-2,
-.plain-text {
+.titleOne,
+.titleTwo,
+.plainText {
   font-family: "Suisse Int'l";
 }
-.title-1 {
+.titleOne {
   font-size: 6rem;
   line-height: 6.1rem;
   margin: 1rem 1rem;
 }
 
-.title-2 {
+.titleTwo {
   font-size: 3rem;
   line-height: 3.1rem;
   margin: 1rem 1rem;
 }
 
-.plain-text {
+.plainText {
   font-size: 1.5rem;
   line-height: 1.8rem;
   margin: 0.3rem 1%;
@@ -66,4 +66,13 @@ body {
 .carousel .slide img {
   max-height: 60rem; /* change this to whatever you want */
   width: auto;
+}
+
+/* for mobilephones */
+@media (max-width: 599px) {
+  .titleOne {
+    font-size: 3rem;
+    line-height: 3.1rem;
+    margin: 1rem 1rem;
+  }
 }
