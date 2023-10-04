@@ -10,10 +10,15 @@
   background: #4425b2;
 }
 
-.moveUpContainer {
+.moveLeftContainer {
+  display: flex;
   justify-content: end;
 }
 
+.moveRightContainer {
+  display: flex;
+  padding-left: 3.5rem;
+}
 /* the flex container holding flex boxes in a column */
 .flexVertical {
   display: flex;
@@ -37,17 +42,21 @@
   flex: 1 1 auto;
 }
 
-/* the overlap effect */
-@media (min-width: 1300px) {
-  .moveUpContainer {
-    transform: translate(-5rem, -13rem);
-  }
-}
-
 /* the white line */
 .whiteLine {
   width: 98%;
   margin: auto;
   height: 2px; /* Adjust the height as needed */
   background-color: white; /* Color of the white line */
+}
+
+/* the overlap effect for desktop and tablet devices */
+@media (min-width: 1200px) {
+  .moveLeftContainer {
+    transform: translate(-8rem, -10rem);
+  }
+
+  .moveRightContainer {
+    transform: translate(2px 2px);
+  }
 }

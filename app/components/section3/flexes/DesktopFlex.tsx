@@ -27,10 +27,10 @@ export default function DesktopFlex() {
           </p>
         </div>
       </div>
-      <div className="px-14 flex-container">
-        <div className={`placeholder-box ${styles.flexItem}`}></div>
+      <div className={styles.moveRightContainer}>
+        <div className={`placeholder-box ${styles.flexItem}`} />
       </div>
-      <div className={`px-14 flex-container ${styles.moveUpContainer}`}>
+      <div className={styles.moveLeftContainer}>
         <div
           className={`placeholder-box ${styles.flexItem} ${styles.darker}`}
         ></div>

@@ -4,7 +4,7 @@ import styles from "../section3.module.css";
 export default function MobileFlex() {
   return (
     <div>
-      <div className="px-14 my-8 flex-container flex-row content-between">
+      <div className=" flex-container flex-row content-between">
         <div className={`${styles.flexTextTitle}`}>
           <p className="titleTwo">
             Proin enim enim, tincidunt consequat sollicitudin.
@@ -25,7 +25,7 @@ export default function MobileFlex() {
           </p>
         </div>
       </div>
-      <div className="px-14 my-8 flex-container flex-row content-between">
+      <div className="flex-container flex-row content-between">
         <div className={`placeholder-box ${styles.flexItem}`}></div>
         <div className={`${styles.flexText}`}>
           <p className="my-20 plainText">
