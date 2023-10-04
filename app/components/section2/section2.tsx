@@ -10,6 +10,9 @@ export default function Section2() {
   const isDesktop = useMediaQuery({
     query: `(min-width: ${AppSettings.MIN_DESKTOP_WIDTH})`,
   });
+  const isTablet = useMediaQuery({
+    query: `(min-width: ${AppSettings.MIN_TABLET_WIDTH}) and (max-width: ${AppSettings.MAX_TABLET_WIDTH})`,
+  });
   const isMobile = useMediaQuery({
     query: `(max-width: ${AppSettings.MAX_MOBILE_WIDTH})`,
   });
@@ -44,9 +47,9 @@ export default function Section2() {
           </div>
         </div>
         <div style={{ width: "100%", height: "8em" }}></div>
-        {/* {isDesktop && <DesktopFlex />}
-        {isMobile && <MobileFlex />} */}
-        <DesktopFlex />
+        {isDesktop && <DesktopFlex />}
+        {isTablet && <TabletFlex />}
+        {isMobile && <MobileFlex />}
         <div style={{ width: "100%", height: "11em" }}></div>
       </section>
     </div>

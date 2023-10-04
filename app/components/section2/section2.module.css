@@ -24,13 +24,6 @@
   align-items: center;
 }
 
-.flexRow.flexRowWrap {
-  width: auto;
-  height: auto;
-  flex-wrap: wrap;
-  flex-shrink: 1;
-}
-
 /* the flex boxes on two sides */
 .flexItem {
   width: auto;
@@ -48,28 +41,50 @@
   margin-bottom: 0.9rem;
 }
 
-/* the flex box in the middle */
-/* .middleFlexItem {
-  width: 30%;
-  height: auto;
-  max-width: 35rem;
-  min-width: 40%;
-  margin: 1rem 1.5rem;
-  flex: 0 1 auto;
-} */
-
 .carouselImg {
   height: 30rem;
 }
 
 /* for tablet window */
-@media (min-width: 700px) {
+@media (min-width: 600px) and (min-width: 1199px) {
   .flexVertical {
     display: flex;
     flex-direction: column;
     flex: 0 1 auto;
-    width: 100%;
+    width: 35rem;
     align-items: center;
+    justify-content: flex-end;
+    margin: 1rem 1rem;
+  }
+
+  .flexRow {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flexItem {
+    max-width: 35rem;
+    margin: 0.2rem;
+    flex-shrink: 1;
+  }
+
+  /* small images on the left side */
+  .flexItem.left {
+    margin-top: 5%;
+  }
+
+  /* small images on the right side */
+  .flexItem.rightTop {
+    margin-top: 8%;
+    margin-bottom: 2.8%;
+  }
+  .flexItem.rightMiddle {
+    margin-top: 2.8%;
+    margin-bottom: 2.8%;
+  }
+  .flexItem.rightBottom {
+    margin-top: 2.8%;
+    margin-bottom: 4%;
   }
 }
 
