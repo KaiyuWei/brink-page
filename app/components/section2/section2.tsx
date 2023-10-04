@@ -2,6 +2,7 @@ import styles from "./section2.module.css";
 import { useMediaQuery } from "react-responsive";
 import DesktopFlex from "./flexes/DesktopFlex";
 import MobileFlex from "./flexes/MobileFlex";
+import DesktopSmallFlex from "./flexes/DesktopSmallFlex";
 
 export default function Section2() {
   // the view is for desktop of mobile devices
@@ -41,7 +42,7 @@ export default function Section2() {
         <div style={{ width: "100%", height: "8em" }}></div>
         {/* {isDesktopOrLaptop && <DesktopFlex />}
         {!isDesktopOrLaptop && <MobileFlex />} */}
-        <DesktopFlex />
+        <DesktopSmallFlex />
         <div style={{ width: "100%", height: "11em" }}></div>
       </section>
     </div>
