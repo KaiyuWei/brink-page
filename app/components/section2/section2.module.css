@@ -46,7 +46,7 @@
 }
 
 /* for tablet window */
-@media (min-width: 600px) and (min-width: 1199px) {
+@media (min-width: 600px) and (max-width: 1199px) {
   .flexVertical {
     display: flex;
     flex-direction: column;
