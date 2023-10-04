@@ -1,7 +1,16 @@
 import React from "react";
 import styles from "./section1.module.css";
+import { useMediaQuery } from "react-responsive";
+import AppSettings from "@/app/appSettings";
+import DesktopFlex from "./flexes/DesktopFlex";
+import MobileFlex from "./flexes/MobileFlex";
 
 export default function Section1() {
+  // determine if the media is a mobile phone now
+  const isMobile = useMediaQuery({
+    query: `(max-width: ${AppSettings.MAX_MOBILE_WIDTH})`,
+  });
+
   return (
     <div>
       <div id={styles.sectionOneHeader}>&nbsp;</div>
@@ -13,14 +22,7 @@ export default function Section1() {
           Utrum ut placerat nec, varius sit amet lacus
         </p>
       </div>
-      <div className={`${styles.twoBoxContainer}`}>
-        <div
-          className={`placeholder-box ${styles.flexItem} ${styles.left}`}
-        ></div>
-        <div className={`placeholder-box ${styles.flexItem} ${styles.right}`}>
-          &nbsp;
-        </div>
-      </div>
+      {isMobile ? <MobileFlex /> : <DesktopFlex />}
     </div>
   );
 }

@@ -11,6 +11,12 @@
   margin: 1rem;
 }
 
+.imageFill {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* the flex container and its items */
 .twoBoxContainer {
   display: flex;
@@ -21,7 +27,6 @@
   max-width: 57rem;
   min-width: 31rem;
   height: 65rem;
-  padding: 10rem 3rem;
   flex: 1 1 auto;
 }
 
