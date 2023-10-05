@@ -20,7 +20,6 @@ export default function Section3() {
   return (
     <div>
       <section className="dark-section">
-        <div style={{ width: "100%", height: "8rem" }}>&nbsp;</div>
         {/* desplay for different media type */}
         {(isDesktop || isTablet) && <DesktopFlex />}
         {isMobile && <MobileFlex />}

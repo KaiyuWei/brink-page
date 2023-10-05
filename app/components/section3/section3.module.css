@@ -1,3 +1,13 @@
+#sectionThreeHeader {
+  width: 100%;
+  height: 8rem;
+}
+
+#sectionThreeFooter {
+  width: 100%;
+  height: 9rem;
+}
+
 .flexItem {
   width: 52%;
   min-width: 23rem;
@@ -82,7 +92,7 @@
   }
 }
 
-/* for movile phone */
+/* for mobile phone */
 @media (max-width: 599px) {
   .textContainer {
     width: 100%;
@@ -91,5 +101,10 @@
 
   .moveLeftContainer {
     justify-content: center;
+  }
+
+  #sectionThreeFooter,
+  #sectionThreeHeader {
+    height: 4rem;
   }
 }

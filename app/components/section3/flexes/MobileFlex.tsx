@@ -4,6 +4,7 @@ import styles from "../section3.module.css";
 export default function MobileFlex() {
   return (
     <div>
+      <div id={styles.sectionThreeHeader} />
       <div className={styles.textContainer}>
         <div className={`${styles.flexTextTitle}`}>
           <p className="titleTwo">
@@ -40,6 +41,7 @@ export default function MobileFlex() {
           className={`placeholder-box ${styles.flexItem} ${styles.darker}`}
         ></div>
       </div>
+      <div id={styles.sectionThreeFooter} />
     </div>
   );
 }
