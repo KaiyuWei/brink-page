@@ -1,7 +1,7 @@
 .flexItem {
-  width: 49%;
+  width: 52%;
   min-width: 23rem;
-  height: 30rem;
+  height: 28rem;
   margin: 1rem 1rem;
   flex: 0 1 auto;
 }
@@ -64,9 +64,32 @@
   }
 }
 
+/* for tablet window */
+@media (min-width: 600px) and (max-width: 1199px) {
+  /* justify both of the placeholders in center*/
+  .moveLeftContainer {
+    justify-content: center;
+    margin-right: 0;
+  }
+
+  .moveRightContainer {
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .flexItem {
+    width: 70%;
+  }
+}
+
+/* for movile phone */
 @media (max-width: 599px) {
   .textContainer {
     width: 100%;
     margin: auto;
+  }
+
+  .moveLeftContainer {
+    justify-content: center;
   }
 }
