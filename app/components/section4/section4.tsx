@@ -6,9 +6,7 @@ export default function Section4() {
     <div>
       <section className="dark-section">
         <div id={styles.sectionFourHeader}>&nbsp;</div>
-        <div
-          className={`${styles.reverseFlex} flex-container justify-evenly px-6`}
-        >
+        <div className={styles.reverseFlex}>
           <div className={`${styles.flexItem} placeholder-box`}>&nbsp;</div>
           <div className={`${styles.flexItem} placeholder-box`}>&nbsp;</div>
           <div className={`${styles.flexText}`}>

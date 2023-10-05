@@ -1,6 +1,6 @@
 #sectionFourHeader {
   width: 100%;
-  height: 9rem;
+  height: 7rem;
 }
 
 #sectionFourFooter {
@@ -9,19 +9,26 @@
 }
 
 .flexItem {
-  width: 30rem;
-  min-width: 23rem;
-  height: 30rem;
+  width: 26rem;
+  min-width: 17rem;
+  height: 26rem;
   margin: 2rem;
 }
 
 .flexText {
-  width: 30rem;
-  margin: 2rem;
+  width: 28rem;
+}
+
+.flexItem,
+.flexText {
+  margin: 1.3rem;
+  padding: 0.5rem;
 }
 
 .reverseFlex {
+  display: flex;
   flex-wrap: wrap-reverse;
+  justify-content: space-evenly;
 }
 
 /* for tablet window */
@@ -47,5 +54,12 @@
   #sectionFourFooter {
     width: 100%;
     height: 4rem;
+  }
+
+  .flexItem,
+  .flexText {
+    width: 100%;
+    margin-left: 0rem;
+    margin-right: 0rem;
   }
 }
