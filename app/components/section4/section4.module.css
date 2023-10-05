@@ -59,7 +59,7 @@
   .flexItem,
   .flexText {
     width: 100%;
-    margin-left: 0rem;
-    margin-right: 0rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
   }
 }

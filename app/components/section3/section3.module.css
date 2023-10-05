@@ -77,14 +77,11 @@
 /* for tablet window */
 @media (min-width: 600px) and (max-width: 1199px) {
   /* justify both of the placeholders in center*/
+  .moveRightContainer,
   .moveLeftContainer {
     justify-content: center;
-    margin-right: 0;
-  }
-
-  .moveRightContainer {
-    justify-content: center;
-    margin-left: 0;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
   }
 
   .flexItem {
@@ -103,6 +100,19 @@
     justify-content: center;
   }
 
+  .moveLeftContainer,
+  .moveRightContainer {
+    width: 100%;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+  }
+
+  .flexItem {
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+  }
+
+  /* make header and footer narrower*/
   #sectionThreeFooter,
   #sectionThreeHeader {
     height: 4rem;
